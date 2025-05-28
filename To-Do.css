@@ -1,0 +1,158 @@
+body{
+    background-color: rgb(196, 213, 228);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    background-color:rgb(170, 170, 204);
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(106, 104, 104,0.9);
+}
+
+.input-section{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+#input{
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+}
+
+.btn{
+    font-size: 16px;
+    padding: 10px 15px;
+    background-color:rgb(68, 61, 161) ;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(62, 133, 215);
+}
+
+
+#list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    text-align: left;
+    background-color: rgb(225, 225, 225);
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    margin: 10px 0;
+    
+}
+
+li button{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+li button:hover{
+    background-color: blue;
+    color: white;
+}
+
+/*
+body{
+    background-color: rgb(196, 213, 228);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+
+
+.mainbox{
+    background-color: rgb(170, 170, 204);
+    padding: 20px; 
+    max-width: 400px;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(106, 104, 104,0.9);
+padding: 35px;
+}
+
+.button{
+    background-color:rgb(68, 61, 161) ;
+    color: aliceblue;
+    border-radius: 5px;
+    border: none;
+    font-size: 16;
+    padding: 10px 15px;
+}
+.button:hover{
+    background-color: rgb(62, 133, 215);
+}
+
+.input-section{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+    border-radius: 3px;
+} 
+
+
+#input{
+padding: 10px;
+width: 100%;
+border-radius: 5px;
+font-size: 16px;
+}
+
+#lists{
+    list-style-type: none ;
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    text-align: left;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(226, 216, 233);
+    position: relative;
+    margin: 10px 0px;
+}
+
+li button{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: red;
+    border: none;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+li button:hover{
+    background-color: blue;
+}
+*/
